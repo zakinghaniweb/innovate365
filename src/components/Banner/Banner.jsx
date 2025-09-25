@@ -14,7 +14,11 @@ const Banner = () => {
       id="banner"
       className="bg-gradient-to-r from-[#411A7C]/72 to-[#084881]/12 relative overflow-hidden"
     >
-      <div className="w-[581px] h-[581px] rounded-full bg-[#610082]/90 blur-[100px] absolute top-[-90px] left-[-40px] z-0"></div>
+      <div
+        className="absolute inset-0 bg-cover bg-center opacity-[20%]"
+        style={{ backgroundImage: "url('/images/bannerBg.jpg')" }}
+      ></div>
+      <div className="w-[581px] h-[581px] rounded-full bg-[#610082]/50 blur-[100px] absolute top-[-90px] left-[-40px] z-0"></div>
       <div className="w-[581px] h-[581px] rounded-full bg-[#005695]/50 blur-[100px] absolute bottom-[-90px] right-[-140px] z-0"></div>
       <div className="container mx-auto">
         <div className="flex justify-between items-center pt-[240px] pb-[230px] px-[110px] z-10 relative">

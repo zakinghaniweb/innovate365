@@ -17,7 +17,9 @@ const Navbar = () => {
         }  duration-200 top-0`}
       >
         <div className="flex justify-between items-start border-b-[2px] border-dashed border-black">
-          <h1 className="text-[22px] font-semibold pb-[15px]">Logo</h1>
+          <Link href={"#"} className="pt-[22px] pb-[20px] w-[200px]">
+            <img src="images/logo2p.png" alt="Logo" />
+          </Link>
           <button
             onClick={() => setShowMenu(false)}
             className="cursor-pointer text-2xl mt-[5px] hover:rotate-90 duration-300"
@@ -71,7 +73,9 @@ const Navbar = () => {
       <div className="container mx-auto px-[20px]">
         <div className="flex justify-between items-center py-[22px]">
           <div className="max-w-[70px]">
-            <h2 className="text-white font-bold text-xl">Logo</h2>
+            <Link href={"#"} className="w-[200px] inline-block">
+              <img src="images/logo2pdark.png" alt="Logo" />
+            </Link>
           </div>
           <div className="flex gap-[27px]">
             <button className="cursor-pointer py-[13px] px-[20px] bg-gradient-to-r from-[#75009A] to-[#0059BA] rounded-lg font-semibold text-white text-[14px]">

@@ -15,15 +15,18 @@
 }
 
 .swiper-slide:nth-child(1n) {
-  background-color: #790000;
+  background: url("../../../public/images/card1.png") no-repeat center;
+  background-size: cover;
 }
 
 .swiper-slide:nth-child(2n) {
-  background-color: #003979;
+  background: url("../../../public/images/card2.png") no-repeat center;
+  background-size: cover;
 }
 
 .swiper-slide:nth-child(3n) {
-  background-color: #570079;
+  background: url("../../../public/images/card3.png") no-repeat center;
+  background-size: cover;
 }
 
 .swiper-slide:nth-child(4n) {
