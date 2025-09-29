@@ -1,14 +1,15 @@
 @reference '../../app/globals.css';
 .singlePortfolio{
   @apply
-  w-[627px]
-  h-[427px]
+  w-[700px]
+  h-[487px]
   bg-gradient-to-r
-  from-[#75007D]
-  to-[#003D65]
-  rounded-lg
+  from-[#550083]
+  to-[#004e82]
+  rounded-md
   relative
-  p-[30px]
+  overflow-hidden
+
 }
 .singlePortfolio .projectLogo{
   @apply
@@ -20,15 +21,55 @@
 }
 .singlePortfolio .project-images{
   @apply
-  flex
-  justify-center
-  items-center
   relative
+  w-full
+  h-full
 }
 .singlePortfolio .project-images .projectCard{
   @apply
-  w-[186px]
-  h-[272px]
+  w-[230px]
+  h-[350px]
   absolute
   rotate-[-25deg]
+  left-[50%]
+  top-[50%]
+  translate-x-[-75%]
+  translate-y-[-57%]
+}
+.project-overlay{
+  @apply
+  absolute
+  opacity-0
+  w-full
+  h-full
+  rounded-md
+  bg-black/40
+  flex
+  items-center
+  justify-center
+  duration-150
+  z-[5]
+}
+.singlePortfolio:hover .project-overlay{
+  @apply
+  opacity-100
+  z-[5]
+}
+.project-overlay button{
+  @apply
+  w-[110px]
+  h-[110px]
+  rounded-full
+  bg-black/60
+  flex
+  items-center
+  justify-center
+  text-white
+  font-medium
+  text-[18px]
+  text-center
+  p-[10px]
+  cursor-pointer
+  hover:bg-black/70
+  duration-200
 }
