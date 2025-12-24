@@ -1,0 +1,50 @@
+@reference "../../app/globals.css";
+#team .swiper {
+  width: 100%;
+  overflow: visible;
+}
+#team .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#team .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#team .swiper-pagination {
+  bottom: -70px;
+  width: 100%;
+  position: absolute;
+}
+#team .swiper-pagination-bullet {
+  @apply w-3 h-3 bg-gray-400 opacity-100 rounded-full;
+}
+#team .swiper-pagination-bullet-active {
+  @apply bg-white;
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  content: none !important;
+}
+.swiper-button-next,
+.swiper-button-prev {
+  @apply static
+  w-[50px]
+  h-[50px]
+  rounded-full
+  text-white
+  p-[12px]
+  text-[22px];
+}
+.swiper-button-next {
+  @apply bg-[#610082];
+}
+.swiper-button-prev {
+  @apply bg-[#005695];
+}

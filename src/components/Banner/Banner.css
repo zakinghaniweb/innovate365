@@ -1,10 +1,9 @@
-.swiper {
-  width: 340px;
-  height: 449px;
-  overflow: visible;
+@reference "../../app/globals.css";
+.banner-card-wrap .swiper {
+ @apply w-[300px] h-[400px] xl:w-[340px] xl:h-[449px] overflow-visible
 }
 
-.swiper-slide {
+.banner-card-wrap .swiper-slide {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,45 +13,45 @@
   color: #fff;
 }
 
-.swiper-slide:nth-child(1n) {
+.banner-card-wrap .swiper-slide:nth-child(1n) {
   background: url("../../../public/images/card1.png") no-repeat center;
   background-size: cover;
 }
 
-.swiper-slide:nth-child(2n) {
+.banner-card-wrap .swiper-slide:nth-child(2n) {
   background: url("../../../public/images/card2.png") no-repeat center;
   background-size: cover;
 }
 
-.swiper-slide:nth-child(3n) {
+.banner-card-wrap .swiper-slide:nth-child(3n) {
   background: url("../../../public/images/card3.png") no-repeat center;
   background-size: cover;
 }
 
-.swiper-slide:nth-child(4n) {
+.banner-card-wrap .swiper-slide:nth-child(4n) {
   background-color: rgb(211, 122, 7);
 }
 
-.swiper-slide:nth-child(5n) {
+.banner-card-wrap .swiper-slide:nth-child(5n) {
   background-color: rgb(118, 163, 12);
 }
 
-.swiper-slide:nth-child(6n) {
+.banner-card-wrap .swiper-slide:nth-child(6n) {
   background-color: rgb(180, 10, 47);
 }
 
-.swiper-slide:nth-child(7n) {
+.banner-card-wrap .banner-card-wrap .swiper-slide:nth-child(7n) {
   background-color: rgb(35, 99, 19);
 }
 
-.swiper-slide:nth-child(8n) {
+.banner-card-wrap .swiper-slide:nth-child(8n) {
   background-color: rgb(0, 68, 255);
 }
 
-.swiper-slide:nth-child(9n) {
+.banner-card-wrap .swiper-slide:nth-child(9n) {
   background-color: rgb(218, 12, 218);
 }
 
-.swiper-slide:nth-child(10n) {
+.banner-card-wrap .swiper-slide:nth-child(10n) {
   background-color: rgb(54, 94, 77);
 }

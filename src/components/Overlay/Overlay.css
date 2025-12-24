@@ -1,0 +1,41 @@
+@reference "../../app/globals.css";
+#overlay{
+    @apply
+    fixed
+    w-full
+    h-screen
+    bg-[#0000004c]
+    left-0
+    flex justify-center items-center
+    z-[9999]
+}
+.overlayPreview{
+    @apply
+    px-[80px]
+    overflow-hidden
+    w-[90%]
+    h-[90%]
+    bg-white
+    rounded-xl
+    relative
+    flex
+    items-center
+    justify-center
+    gap-[100px]
+}
+.overlayClose{
+    @apply
+    absolute
+    right-0
+    top-0
+    mt-[20px]
+    mr-[20px]
+    cursor-pointer
+    p-[10px]
+    bg-black
+    rounded-full
+    text-white
+    text-2xl
+    hover:text-black
+    hover:bg-slate-200
+}

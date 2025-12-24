@@ -9,7 +9,9 @@
   rounded-md
   relative
   overflow-hidden
-
+  md:scale-100
+  sm:scale-[90%]
+  scale-[80%]
 }
 .singlePortfolio .projectLogo{
   @apply
@@ -24,6 +26,9 @@
   relative
   w-full
   h-full
+  md:scale-100
+  sm:scale-[90%]
+  scale-[80%]
 }
 .singlePortfolio .project-images .projectCard{
   @apply
@@ -58,7 +63,7 @@
 .project-overlay button{
   @apply
   w-[110px]
-  h-[110px]
+  lg:h-[110px]
   rounded-full
   bg-black/60
   flex

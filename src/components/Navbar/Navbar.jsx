@@ -12,8 +12,8 @@ const Navbar = () => {
       className="z-[99] bg-transparent border-b-[1px] border-[#FFFFFF]/50 absolute w-full"
     >
       <div
-        className={`absolute w-[300px] h-screen bg-white p-[30px] ${
-          showMenu ? "right-0" : "right-[-300px]"
+        className={`absolute w-full lg:w-[300px] h-screen bg-white p-[30px] ${
+          showMenu ? "right-0" : "right-[-100%]"
         }  duration-200 top-0`}
       >
         <div className="flex justify-between items-start border-b-[2px] border-dashed border-black">
@@ -78,7 +78,7 @@ const Navbar = () => {
             </Link>
           </div>
           <div className="flex gap-[27px]">
-            <button className="cursor-pointer py-[13px] px-[20px] bg-gradient-to-r from-[#75009A] to-[#0059BA] rounded-lg font-semibold text-white text-[14px]">
+            <button className="hidden md:inline-block cursor-pointer py-[13px] px-[20px] bg-gradient-to-r from-[#75009A] to-[#0059BA] rounded-lg font-semibold text-white text-[14px]">
               Hire Us
             </button>
             <button

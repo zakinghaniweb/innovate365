@@ -21,24 +21,24 @@ const Banner = () => {
       <div className="w-[581px] h-[581px] rounded-full bg-[#610082]/50 blur-[100px] absolute top-[-90px] left-[-40px] z-0"></div>
       <div className="w-[581px] h-[581px] rounded-full bg-[#005695]/50 blur-[100px] absolute bottom-[-90px] right-[-140px] z-0"></div>
       <div className="container mx-auto">
-        <div className="flex justify-between items-center pt-[240px] pb-[230px] px-[110px] z-10 relative">
-          <div className="max-w-[404px]">
-            <h1 className="text-[55px] font-semibold text-white leading-[70px]">
+        <div className="flex flex-col lg:flex-row justify-between items-center pt-[230px] lg:pt-[240px] pb-[80px] lg:pb-[230px] px-[30px] xl:px-[110px] z-10 relative">
+          <div className="max-w-[404px] flex lg:block flex-col items-center">
+            <h1 className="text-[45px] text-center lg:text-left leading-[60px] xl:leading-[70px] xl:text-[55px] font-semibold text-white">
               Web Design & Development Agency
             </h1>
-            <p className="leading-[30px] text-[18px] font-normal text-gray-300 my-[50px]">
+            <p className="leading-[30px] text-center lg:text-left text-[16px] xl:text-[18px] font-normal text-gray-300 my-[50px]">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
               nihil illum doloribus rem distinctio, accusantium explicabo nihil
               illum doloribus rem distinctio, accusantium explicabo
             </p>
             <Link
               href={"#"}
-              className="py-[17px] px-[55px] font-semibold text-white rounded-md border-[2px] border-white inline-block duration-300 hover:bg-white hover:text-black"
+              className="w-[190px] lg:w-auto py-[17px] px-[55px] font-semibold text-white rounded-md border-[2px] border-white inline-block duration-300 hover:bg-white hover:text-black"
             >
               See More
             </Link>
           </div>
-          <div className="w-[450px]">
+          <div className="w-[450px] banner-card-wrap lg:mt-0 mt-[50px]">
             <Swiper
               effect={"cards"}
               grabCursor={true}
